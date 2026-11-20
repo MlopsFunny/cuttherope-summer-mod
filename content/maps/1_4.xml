@@ -1,18 +1,19 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <map>
-    <layer name="settings">
-        <map gridSize="32" width="320" height="480" />
-        <gameDesign ropePhysicsSpeed="1.0" />
-    </layer>
-    <layer name="Objects">
-        <candy x="158" y="187" />
-        <target x="262" y="362" />
-        <grab x="161" y="315" length="93" wheel="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
-        <grab x="289" y="186" length="105" wheel="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
-        <grab x="162" y="57" length="93" wheel="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
-        <grab x="33" y="186" length="105" wheel="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" />
-        <star x="159" y="226" timeout="-1" />
-        <star x="32" y="312" timeout="-1" />
-        <star x="161" y="434" timeout="-1" />
-    </layer>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <target x="260" y="409" />
+    <candy x="121" y="317" isDriven="false" candyNumber="0" />
+    <grab x="122" y="210" length="100" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
+    <pump x="36" y="316" angle="0" />
+    <star x="204" y="316" timeout="-1" />
+    <star x="256" y="272" timeout="-1" />
+    <star x="288" y="219" timeout="-1" />
+    <tutorialText x="47" y="80" text="Air Pumps will release a gust of air that propels the candy when tapped, useful for traversal!" width="261" locale="en" />
+    <tutorial02 x="66" y="217" angle="-163" locale="en" />
+    <tutorial09 x="44" y="135" angle="0" locale="en" />
+  </layer>
 </map>

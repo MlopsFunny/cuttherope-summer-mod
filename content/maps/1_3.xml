@@ -1,17 +1,19 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <map>
-    <layer name="settings">
-        <map gridSize="32" width="480" height="480" />
-        <gameDesign ropePhysicsSpeed="1.0" twoParts="false" />
-    </layer>
-    <layer name="Objects">
-        <candy x="258" y="221" />
-        <grab x="177" y="281" length="95" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-        <grab x="175" y="120" length="95" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-        <target x="285" y="387" />
-        <star x="57" y="318" timeout="-1" />
-        <star x="175" y="403" timeout="-1" />
-        <star x="123" y="223" timeout="-1" />
-        <grab x="430" y="169" length="140" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" part="L" hidePath="false" />
-    </layer>
+  <layer name="settings">
+    <map gridSize="32" width="320" height="480" />
+    <gameDesign ropePhysicsSpeed="1" twoParts="false" nightLevel="false" />
+  </layer>
+  <layer name="Objects">
+    <grab x="160" y="213" length="100" wheel="false" gun="false" radius="-1" moveLength="-1" moveVertical="false" moveOffset="0" spider="false" kickable="false" kicked="false" hidePath="false" invisible="false" breakable="true" />
+    <candy x="161" y="319" isDriven="false" candyNumber="0" />
+    <bubble x="164" y="397" />
+    <star x="160" y="221" timeout="-1" />
+    <star x="160" y="126" timeout="-1" />
+    <star x="165" y="398" timeout="-1" />
+    <target x="158" y="40" />
+    <tutorialText x="16" y="416" text="Bubbles will lift the Candy up. You can click on them to pop them if needed!" width="294" locale="en" />
+    <tutorial09 x="25" y="399" angle="0" locale="en" />
+    <tutorial04 x="95" y="407" angle="-175" locale="en" />
+  </layer>
 </map>
